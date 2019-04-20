@@ -1,0 +1,3 @@
+FROM parent_img
+COPY entry_point2.sh ./
+ENTRYPOINT ["./entry_point2.sh"]

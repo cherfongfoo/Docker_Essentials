@@ -1,0 +1,5 @@
+FROM alpine
+COPY entry_point1.sh ./
+ENTRYPOINT ["/bin/sh"]
+CMD ["entry_point1.sh"]
+
